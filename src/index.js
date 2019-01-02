@@ -7,7 +7,7 @@ import TestComponentFul from './stateful/TestComponenFul';
 // import TestComponent from './stateles/TestComponent';
 // import HelloComponent from './stateles/HelloComponent';
 
-ReactDOM.render(<TestComponentFul />, document.getElementById('root'));
+// ReactDOM.render(<TestComponentFul />, document.getElementById('root'));
 // ReactDOM.render(<TestComponent />, document.getElementById('root'));
 // ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 // ReactDOM.render(<HelloComponent />, document.getElementById('root'));
