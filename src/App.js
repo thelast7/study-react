@@ -4,6 +4,9 @@ import './App.css';
 import { Greet } from './Component/Greet';
 import Welcome from './Component/Welcome';
 import Hello from './Component/Hello';
+import { Ulanggreet } from './TestComponent/Ulanggreet';
+import Ulangwelcome from './TestComponent/Ulangwelcome';
+import Ulanghello from './TestComponent/Ulanghello';
 
 class App extends Component {
   render() {
@@ -26,6 +29,10 @@ class App extends Component {
         <Greet />
         <Welcome />
         <Hello />
+
+        <Ulanggreet />
+        <Ulangwelcome />
+        <Ulanghello />
       </div>
     );
   }
