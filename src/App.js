@@ -26,7 +26,18 @@ class App extends Component {
             Learn React
           </a>
         </header> */}
-        <Greet />
+        <Greet
+          name="takim"
+          umur="25" />
+
+        <Greet
+          name="putri"
+          umur="23"/>
+
+        <Greet name="ghisa" umur="7">
+          <p>ini child</p>
+        </Greet>
+
         <Welcome />
         <Hello />
 
